@@ -6,7 +6,7 @@
     list-style-type: none;
     color:#FFF;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     overflow: hidden;
 }
 .barMenu, .top-section i{
@@ -18,7 +18,7 @@
     display: flex;
 }
 .content{
-    height: calc(100vh - 120px);
+    height: calc(100vh - 110px);
 }
 header{
     padding: 10px 20px;
@@ -107,7 +107,7 @@ header nav ul li a:hover{
 }
 
 .sidebar .sous-menu-item li{
-    margin: 10px 0;
+    margin: 10px 0 0 0;
     display: flex;
     align-items: center;
     transition: .5s all ease;
