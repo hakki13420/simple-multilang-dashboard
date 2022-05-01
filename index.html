@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="wraper">
+
+        <div class="left">
+            <div class="top-section">
+                <h5>
+                    Dashboard
+                </h5>
+                <i class="fa-solid fa-gauge"></i>
+            </div>
+
+            <section class="sidebar">
+                <div class="sidebar-top">
+
+                </div>
+                <ul>
+                    <li class="menu">
+                        <div data-sous="sous-menu-item1" class="menu-link">
+                            <i class="fa-solid fa-house"></i>
+                            <a  class="menu-item" href="#">Operateurs</a>
+                        </div>
+                        <ul class="sous-menu-item none" id="sous-menu-item1">
+                            <li>
+                                <i class="fa-solid fa-house"></i>
+                                <a href="">Addition</a>
+                            </li><li>
+                                <i class="fa-solid fa-house"></i>
+                                <a href="">Addition</a>
+                            </li><li>
+                                <i class="fa-solid fa-house"></i>
+                                <a href="">Addition</a>
+                            </li>
+                    </ul>
+                </li>
+                
+                <li class="menu">
+                    <div data-sous="sous-menu-item2" class="menu-link">
+                        <i class="fa-solid fa-house"></i>
+                        <a  class="menu-item" href="#">Operateurs</a>
+                    </div>
+                    <ul class="sous-menu-item none" id="sous-menu-item2">
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li><li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li><li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="menu">
+                    <div data-sous="sous-menu-item3" class="menu-link">
+                        <i class="fa-solid fa-house"></i>
+                        <a  class="menu-item" href="#">Operateurs</a>
+                    </div>
+                    <ul class="sous-menu-item none" id="sous-menu-item3">
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li><li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li><li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="menu">
+                    <div data-sous="sous-menu-item4" class="menu-link">
+                        <i class="fa-solid fa-house"></i>
+                        <a  class="menu-item" href="#">Operateurs</a>
+                    </div>
+                    <ul class="sous-menu-item none" id="sous-menu-item4">
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li><li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="menu">
+                    <div data-sous="sous-menu-item5" class="menu-link">
+                        <i class="fa-solid fa-house"></i>
+                        <a class="menu-item"  href="#">Operateurs</a>
+                    </div>
+                    <ul class="sous-menu-item none" id="sous-menu-item5">
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li><li>
+                            <i class="fa-solid fa-house"></i>
+                            <a href="">Addition</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+        <div class="right">
+            <header>        
+                <div class="brand">
+                    HakkiDev
+                </div>
+                <div class="barMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </nav>
+                <div class="languages">
+                    <span id="ar">Ar</span>
+                    <span id="fr">Fr</span>
+                </div>
+                <div class="userBox">
+                    <span>hakki</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Second_LIfe_Avatar.jpg/220px-Second_LIfe_Avatar.jpg" alt="">
+                </div>
+            </header>
+            <div class="content">
+
+            </div>
+            <footer>
+                <p>HakkiDev&copy;<span id="year"></span></p>
+            </footer>
+        </div>
+        
+    </div>
+
+    <script>
+        const year=new Date().getFullYear()
+        document.getElementById('year').innerHTML=year;
+    </script>
+    <script src="./main.js"></script>
+</body>
+</html>
